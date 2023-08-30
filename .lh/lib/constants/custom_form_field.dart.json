@@ -1,0 +1,54 @@
+{
+    "sourceFile": "lib/constants/custom_form_field.dart",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 9,
+            "patches": [
+                {
+                    "date": 1693339906289,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1693339911749,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import 'package:flutter/material.dart';\r\n \r\n-class MyWidget extends StatelessWidget {\r\n-  const MyWidget({super.key});\r\n+class MyFormField extends StatelessWidget {\r\n+  const MyFormField({super.key});\r\n \r\n   @override\r\n   Widget build(BuildContext context) {\r\n     return const Placeholder();\r\n"
+                },
+                {
+                    "date": 1693339917037,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,7 +4,7 @@\n   const MyFormField({super.key});\r\n \r\n   @override\r\n   Widget build(BuildContext context) {\r\n-    return const Placeholder();\r\n+    return TextF;\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1693340002622,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,14 @@\n import 'package:flutter/material.dart';\r\n \r\n class MyFormField extends StatelessWidget {\r\n+   final TextEditingController controller;\r\n+  final String hint;\r\n   const MyFormField({super.key});\r\n \r\n   @override\r\n   Widget build(BuildContext context) {\r\n-    return TextF;\r\n+    return TextFormField(\r\n+\r\n+    );\r\n   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1693340009703,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \r\n class MyFormField extends StatelessWidget {\r\n    final TextEditingController controller;\r\n   final String hint;\r\n-  const MyFormField({super.key});\r\n+  CustomTextField({required this.controller, required this.hint});\r\n \r\n   @override\r\n   Widget build(BuildContext context) {\r\n     return TextFormField(\r\n"
+                },
+                {
+                    "date": 1693340027000,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,14 +1,16 @@\n import 'package:flutter/material.dart';\r\n \r\n class MyFormField extends StatelessWidget {\r\n-   final TextEditingController controller;\r\n+  final TextEditingController controller;\r\n   final String hint;\r\n-  CustomTextField({required this.controller, required this.hint});\r\n+  const MyFormField({super.key, required this.controller, required this.hint});\r\n \r\n   @override\r\n   Widget build(BuildContext context) {\r\n     return TextFormField(\r\n-\r\n+          controller: controller,\r\n\\ No newline at end of file\n+      decoration: InputDecoration(\r\n+        hintText: hint,\r\n     );\r\n   }\r\n-}\n+}\r\n"
+                },
+                {
+                    "date": 1693340037523,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,7 +10,8 @@\n     return TextFormField(\r\n           controller: controller,\r\n       decoration: InputDecoration(\r\n         hintText: hint,\r\n+          ),\r\n     );\r\n   }\r\n\\ No newline at end of file\n-}\n+}\r\n"
+                },
+                {
+                    "date": 1693340161293,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,11 +7,12 @@\n \r\n   @override\r\n   Widget build(BuildContext context) {\r\n     return TextFormField(\r\n-          controller: controller,\r\n+      controller: controller,\r\n       decoration: InputDecoration(\r\n         hintText: hint,\r\n-          ),\r\n+        c\r\n+      ),\r\n\\ No newline at end of file\n     );\r\n   }\r\n-}\n+}\r\n"
+                },
+                {
+                    "date": 1693340168007,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     return TextFormField(\r\n       controller: controller,\r\n       decoration: InputDecoration(\r\n         hintText: hint,\r\n-        focusColor: \r\n+        focusColor: C\r\n       ),\r\n     );\r\n   }\r\n }\r\n"
+                },
+                {
+                    "date": 1693342112138,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n       controller: controller,\r\n       decoration: InputDecoration(\r\n           hintText: hintText,\r\n           hintStyle: const TextStyle(\r\n-              color: Colors.grey, fontFamily: 'Iphone', fontSize: 18),\r\n+              color: Colors.grey, fontFamily: 'Iphone', fontSize: 12),\r\n           fillColor: Colors.grey,\r\n           enabledBorder: const UnderlineInputBorder(\r\n               borderSide: BorderSide(color: Colors.grey)),\r\n           focusedBorder: const UnderlineInputBorder(\r\n"
+                }
+            ],
+            "date": 1693339906288,
+            "name": "Commit-0",
+            "content": "import 'package:flutter/material.dart';\r\n\r\nclass MyWidget extends StatelessWidget {\r\n  const MyWidget({super.key});\r\n\r\n  @override\r\n  Widget build(BuildContext context) {\r\n    return const Placeholder();\r\n  }\r\n}"
+        }
+    ]
+}

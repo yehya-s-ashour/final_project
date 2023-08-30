@@ -1,0 +1,58 @@
+{
+    "sourceFile": "lib/constants/colors.dart",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 10,
+            "patches": [
+                {
+                    "date": 1693334626226,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1693334634849,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-Color \n\\ No newline at end of file\n+Color scondaryColor = \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1693334640777,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,3 @@\n-Color scondaryColor = \n\\ No newline at end of file\n+import 'package:flutter/material.dart';\r\n+\r\n+Color scondaryColor = Color(value)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1693334653120,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n import 'package:flutter/material.dart';\r\n \r\n-Color scondaryColor = Color(value)\n\\ No newline at end of file\n+Color scondaryColor = Color.\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1693334669234,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n import 'package:flutter/material.dart';\r\n \r\n-Color scondaryColor = Color.\n\\ No newline at end of file\n+Color scondaryColor = Color.fromARGB(98,134,254,255)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1693334674643,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,4 @@\n import 'package:flutter/material.dart';\r\n \r\n-Color scondaryColor = Color.fromARGB(98,134,254,255)\n\\ No newline at end of file\n+Color scondaryColor = const Color.fromARGB(98, 134, 254, 255);\r\n+Color primaryColor = Colors.white;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1693334693509,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n import 'package:flutter/material.dart';\r\n \r\n-Color scondaryColor = const Color.fromARGB(98, 134, 254, 255);\r\n+Color scondaryColor = \r\n Color primaryColor = Colors.white;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1693334700402,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n import 'package:flutter/material.dart';\r\n \r\n-Color scondaryColor = \r\n-Color primaryColor = Colors.white;\n\\ No newline at end of file\n+Color scondaryColor = const Color.fromARGB(98, 134, 254, 255);\r\n+Color primaryColor = const Color.fromARGB(98, 134, 254, 255);\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1693334705806,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n import 'package:flutter/material.dart';\r\n \r\n Color scondaryColor = const Color.fromARGB(98, 134, 254, 255);\r\n-Color primaryColor = const Color.fromARGB(98, 134, 254, 255);\n\\ No newline at end of file\n+Color primaryColor = const Color.fromARGB(12,68,253,255);\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1693334723790,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n import 'package:flutter/material.dart';\r\n \r\n-Color scondaryColor = const Color();\r\n+Color scondaryColor = const Color(#0c44fd);\r\n Color primaryColor = const Color.fromARGB(12,68,253,255);\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1693334729074,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,4 @@\n+import 'package:flutter/material.dart';\r\n+\r\n+Color scondaryColor = const Color(ff0c44fd);\r\n+Color primaryColor = const Color.fromARGB(12,68,253,255);\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1693334626226,
+            "name": "Commit-0",
+            "content": "Color "
+        }
+    ]
+}
