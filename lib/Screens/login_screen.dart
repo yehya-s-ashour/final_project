@@ -1,9 +1,9 @@
-import 'package:final_project/Screens/home.dart';
 import 'package:flutter/material.dart';
 import 'package:icons_plus/icons_plus.dart';
 import 'package:toggle_switch/toggle_switch.dart';
 
 import '../constants/colors.dart';
+import 'main_screen.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
@@ -176,7 +176,7 @@ class _LoginScreenState extends State<LoginScreen> {
                                       context,
                                       MaterialPageRoute(
                                           builder: (context) =>
-                                              const HomeScreen()),
+                                              const MainPage()),
                                     );
                                   }
                                 } else {
@@ -185,7 +185,7 @@ class _LoginScreenState extends State<LoginScreen> {
                                       context,
                                       MaterialPageRoute(
                                           builder: (context) =>
-                                              const HomeScreen()),
+                                              const MainPage()),
                                     );
                                   }
                                 }
